@@ -1,0 +1,25 @@
+{
+  "name": "babbagecomputers.in_11ty",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/narayanarao4u/babbagecomputers.in_11ty.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/narayanarao4u/babbagecomputers.in_11ty/issues"
+  },
+  "homepage": "https://github.com/narayanarao4u/babbagecomputers.in_11ty#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^1.0.2"
+  },
+  "dependencies": {}
+}

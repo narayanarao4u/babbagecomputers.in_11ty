@@ -1,0 +1,223 @@
+body{
+  /* font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5; */
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  background: #f4f4f4;
+}
+
+/*#region Global*/
+.container{
+  width: 95%;
+  margin: auto;
+  overflow: hidden;;
+}
+/*# region */
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+ul li{
+	float: left;
+	width: 150px;
+	height:40px;
+
+	background-color: #35424a;
+	opacity: 0.9;
+
+	line-height: 40px;
+	text-align: center;
+	font-size: 20px;
+
+  border: 1px solid #35424a;
+  border-radius: 15px;
+
+}
+ul li a{
+	text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+	display: block;
+
+
+
+}
+
+ul li a:hover{
+	background-color: orange;
+  border-radius: 15px;
+  color: #35424a;
+  font-weight: bold;
+}
+
+ul li ul li{
+	display: none;
+}
+
+ul li:hover ul li{
+	display: block;
+}
+/*#endregion */
+
+.button_1{
+  height: 38px;
+  border: 0;
+  background: orange;
+  padding: 0 20px;
+  color: #fff;
+}
+/*#endregion */
+
+/*#region Header*/
+header{
+  background:#35424a;
+  color: #ffffff;
+  padding-top: 15px;
+  min-height: 80px;
+  border-bottom: 3px solid #e8491d;
+}
+
+header nav{
+   float: right;
+   margin-top: 0px;
+ }
+
+header .highlight, header .current a{
+  color: orange;
+  font-weight: bold;
+}
+
+
+
+#branding{
+  float: left;
+  padding-left: 10px;
+}
+
+#branding div{
+  display: inline-block;
+  text-align: center;
+}
+
+
+#branding span{
+  margin: 0;
+  font-size: 30px;
+}
+
+#branding img{
+  height: 70px;
+  vertical-align: middle;
+}
+
+
+
+/*#endregion*/
+
+/*#region showcase*/
+#showcase{
+  min-height: 250px;
+  /* background: url('../img/bctshowcase.png') no-repeat;
+  background-size: 100% 100%; */
+  background: rgb(238,174,202);
+  background: linear-gradient(150deg, rgba(238,174,202,1) 0%, rgba(190,181,218,1) 48%, rgba(148,187,233,1) 100%);
+  text-align: center;
+  color: #35424a;
+  text-shadow: 1px 1px orange;
+}
+#showcase h1{
+  margin-top: 50px;
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+#showcase p{
+  font-size: 20px
+}
+/*#endregion/
+
+ */
+
+/*#region Newsletter*/
+#newsletter{
+  padding: 10px;
+  color: #fff;
+  background: #35424a;
+}
+
+#newsletter h1{
+  float: left;
+}
+
+#newsletter form{
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+/*#endregion*/
+
+/*#region boxes*/
+#boxes {
+  margin-top: 20px;
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 23%;
+  padding: 10px;
+}
+
+#boxes a{
+  text-decoration: none;
+}
+
+.box i{
+  font-size: 90px;
+}
+/*#endregion*/
+
+/*#region social media*/
+.social_media{
+  padding: 0 20px;
+  text-align: center;
+}
+.social_media a{
+  text-decoration: none;
+}
+
+.social_media .msgapps{
+  float: left;
+  width: 50%;
+  font-size: 50px;
+}
+
+.social_media .textlocal{
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.instagram{
+  border-radius: 35px;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
+/*#endregion*/
+footer{
+  padding: 5px;
+  margin-top: 5px;
+  color: #fff;
+  background-color: #e8491d;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
