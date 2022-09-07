@@ -32,10 +32,38 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 </head>
 <body>
-    {% include "layouts/header.html" %}
-    {% block head %}{% endblock %}
-    {{ content | safe }}
-    {% include "layouts/footer.html" %}
+    <header>
+    <div id="branding">
+      <div><img src="/assests/img/BCTLOGO.png" alt="bct vizag" ></div>
+      <div><span><span class="highlight">Babbage Computer Technologies</span> Vizag</span></div>
+    </div>
+    <nav>
+      <ul>
+        <li class="current"><a  href="/">Home</a></li>
+        <li><a href="/">Projects</a>
+              <ul>
+                <li><a href="/sbf">SFB Soft</a></li>
+                <li><a href="/pcsc">PCSC</a></li>
+                <li><a href="/webdesign">Web Design</a></li>
+              </ul>
+        </li>
+        <li><a href="/About">About</a></li>
+      </ul>
+    </nav>
+  </header>
+    
+    
+<div class="container">
+    <h2>PCSC Software</h2>
+    <p>Police Subscidairy canteen software</p>
+    <a href="https:///dl.dropboxusercontent.com/s/6sxpp1vx82g3jto/BCTCanteen_Setup.exe" class="btn btn-success">Download</a>
+</div>
+    <footer>
+    <span>Babbage Computer Technologies, Visakhapatnam &copy; 2020</span>
+    <div class="sponcer">
+        icons by <a href="https://icons8.com/">Icons8</a>
+    </div>
+  </footer>
 
     <script>
         AOS.init();
